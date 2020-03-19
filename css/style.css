@@ -81,6 +81,12 @@ p + h2 {
   display: inline-block;
   margin: 0;}
 
+  .pool {
+  font-size: 100%;
+  color: #ffb87a;
+  display: inline-block;
+  margin: 0;}
+
 #roomRate{
   text-decoration: line-through;
   display: inline-block;
