@@ -3,7 +3,7 @@ var hotel = {
     name: 'Clayton',
     rooms: 110,
     booked: 25,
-    gym: true,
+    gym: false,
     pool: true,
     roomTypes: ['double', 'twin', 'suite', 'king'],
     checkAvailablity: function() {
@@ -32,8 +32,8 @@ var elRooms = document.getElementById('rooms');
 elRooms.textContent = hotel.checkAvailablity();
 
 var elPool = document.getElementById('pool');      
-elPool.textContent = hotel.checkPool;                     
+elPool.textContent = hotel.checkPool();                     
 
 var elGym = document.getElementById('gym');        
-elGym.textContent = hotel.checkGym;
+elGym.textContent = hotel.checkGym();
 
